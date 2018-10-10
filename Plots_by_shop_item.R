@@ -39,7 +39,7 @@ Palette_dots <- c(
 # create a connection
 
 pw <- {
-  "michela123"
+  "..."
 }
  
 # loads the PostgreSQL driver
