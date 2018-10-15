@@ -34,6 +34,6 @@ Important data sets are on the Nielsen server.
  
  develop the model:
  
- dulux.R
+ yales_model_script.R
 
 
