@@ -1,7 +1,7 @@
 # data-science
 work related data science projects
 
-Nielsen Causal Estimation model manual: Nielsen wanted to infer from sales data if a product in major supermarkets in NZ was on promotion.
+# Nielsen Causal Estimation model manual: Nielsen wanted to infer from sales data if a product in major supermarkets in NZ was on promotion.
 
 •	Two example sql scripts calculating market volume per schema (e.g. coke products) and market share per item (COKE 1.5l) in sql folder:
 1.	market_share_ambient.sql 
@@ -24,8 +24,16 @@ This scripts run in R on Nielsen's server. The best commented is the coke script
 
 Important data sets are on the Nielsen server.
 
- Dulux/Yates sales forecast model: The sales data from Bunnings showed the key driver for sales volume is weather. But which wether featrue for which product or region in AUS?
+# Dulux/Yates sales forecast model: The sales data from Bunnings showed the key driver for sales volume is weather. But which wether featrue for which product or region in AUS?
+ 
+ prepare the data:
+ 
+ make_sales_date_ready.R
+ make_weather_data_ready.R
  
  
+ develop the model:
+ 
+ dulux.R
 
 
