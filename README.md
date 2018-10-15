@@ -24,7 +24,7 @@ This scripts run in R on Nielsen's server. The best commented is the coke script
 
 Important data sets are on the Nielsen server.
 
-# Dulux/Yates sales forecast model: The sales data from Bunnings showed the key driver for sales volume is weather. But which wether featrue for which product or region in AUS?
+# Dulux/Yates sales forecast model: The sales data from Bunnings showed the key driver for sales volume is weather. But what kind of weather for what product in which region in AUS?
  
  prepare the data:
  
