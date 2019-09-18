@@ -50,7 +50,7 @@ model125 <- polr(display_level ~  corrected_sales_in_volume +  sales_index + pri
 anova(model122, test= 'Chisq')
 fitted.results <- predict(model122, newdata = training_data_copy, type = 'response')
 fitted.results <- ifelse(fitted.results > 0.5,1,0)
-misClasificError <- mean(fitted.results != training_data_copy$Display_Ind)
+misClasificError <- mean(fitted.results != test_data_copy$Display_Ind)
 print(paste('Accuracy',1-misClasificError))
 confusionMatrix(data= fitted.results, reference = training_data_copy$Display_Ind)
 
